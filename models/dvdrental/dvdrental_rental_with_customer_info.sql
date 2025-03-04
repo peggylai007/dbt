@@ -26,8 +26,10 @@ final as (
     left join
         active_rental ar on c.customer_id = ar.customer_id
     where
-        c.last_update > current_date - interval '1 year'
+        c.last_update > current_date - interval '13 year'
     order by
     c.customer_id    
 )
+
+select * from final
 
