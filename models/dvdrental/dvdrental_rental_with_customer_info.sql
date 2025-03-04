@@ -31,4 +31,3 @@ final as (
     c.customer_id    
 )
 
-select * from final
