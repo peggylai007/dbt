@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: dvdrental_source
+    database: dvdrental
+    schema: public 
+    tables:
+      - name: rental
+      - name: customer
+
+models:
+  - name: dvdrental_active_rental

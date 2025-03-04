@@ -1,5 +1,5 @@
 
-version: 2
+version: 3
 
 models:
   - name: my_first_dbt_model
@@ -19,3 +19,5 @@ models:
         data_tests:
           - unique
           - not_null
+
+
