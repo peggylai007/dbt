@@ -10,3 +10,5 @@ sources:
 
 models:
   - name: dvdrental_active_rental
+  - name: dvdrental_rental_with_customer_info
+
